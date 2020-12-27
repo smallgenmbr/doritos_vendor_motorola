@@ -279,3 +279,25 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+android_app_import {
+	name: "MotoDolbyV3",
+	owner: "motorola",
+	apk: "proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	overrides: ["AudioFX", "MusicFX"],
+}
+
+android_app_import {
+	name: "daxService",
+	owner: "motorola",
+	apk: "proprietary/priv-app/daxService/daxService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
