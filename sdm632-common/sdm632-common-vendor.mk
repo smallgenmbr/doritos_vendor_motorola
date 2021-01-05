@@ -794,24 +794,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm632-common/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/motorola/sdm632-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 
-# Moto DTV
-PRODUCT_COPY_FILES += \
-    vendor/motorola/sdm632-common/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdtvtuner.so \
-    vendor/motorola/sdm632-common/proprietary/lib/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/motorola.hardware.tv@1.0.so \
-    vendor/motorola/sdm632-common/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdtvtuner.so \
-    vendor/motorola/sdm632-common/proprietary/lib64/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/motorola.hardware.tv@1.0.so \
-    vendor/motorola/sdm632-common/proprietary/product/etc/motorola/sysconfig/dtv-hidepackages.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/motorola/sysconfig/dtv-hidepackages.xml \
-    vendor/motorola/sdm632-common/proprietary/product/etc/permissions/com.motorola.hardware.dtv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.hardware.dtv.xml \
-    vendor/motorola/sdm632-common/proprietary/product/etc/permissions/mot_dtv_permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/mot_dtv_permissions.xml \
-    vendor/motorola/sdm632-common/proprietary/product/etc/permissions/unavail.com.motorola.hardware.dtv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/unavail.com.motorola.hardware.dtv.xml \
-    vendor/motorola/sdm632-common/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.dtv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dtv.xml \
-    vendor/motorola/sdm632-common/proprietary/vendor/bin/hw/motorola.hardware.tv@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.tv@1.0-service \
-    vendor/motorola/sdm632-common/proprietary/vendor/etc/init/motorola.hardware.tv@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.tv@1.0-service.rc \
-    vendor/motorola/sdm632-common/proprietary/vendor/lib/hw/motorola.hardware.tv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.tv@1.0-impl.so \
-    vendor/motorola/sdm632-common/proprietary/vendor/lib/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.tv@1.0.so \
-    vendor/motorola/sdm632-common/proprietary/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/motorola.hardware.tv@1.0-impl.so \
-    vendor/motorola/sdm632-common/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tv@1.0.so
-
 PRODUCT_PACKAGES += \
     libdsi_netctrl \
     libgpustats \
@@ -826,8 +808,6 @@ PRODUCT_PACKAGES += \
     MotoDolbyV3 \
     FMPlayer \
     FMRadioService \
-    DTVPlayer \
-    DTVService \
     WfdService \
     daxService \
     CneApp \

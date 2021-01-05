@@ -1,4 +1,0 @@
-service tv-hal-1-0 /vendor/bin/hw/motorola.hardware.tv@1.0-service
-    class hal
-    user vendor_dtv
-    group vendor_dtv
