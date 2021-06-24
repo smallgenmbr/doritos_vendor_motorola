@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -53,15 +53,31 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/channel/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/motorola/channel/proprietary/vendor/lib/hw/audio.primary.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8953.so \
     vendor/motorola/channel/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
-    vendor/motorola/channel/proprietary/vendor/lib/rfsa/adsp/tas2560_TI_0.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas2560_TI_0.bin \
-    vendor/motorola/channel/proprietary/vendor/lib/rfsa/adsp/tas2560_TI_1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas2560_TI_1.bin \
-    vendor/motorola/channel/proprietary/vendor/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1 \
     vendor/motorola/channel/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/channel/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
     vendor/motorola/channel/proprietary/vendor/lib/libactuator_dw9767.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767.so \
     vendor/motorola/channel/proprietary/vendor/lib/libactuator_lc898217xh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xh.so \
     vendor/motorola/channel/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/motorola/channel/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_common.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_hfr_60.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_liveshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_snapshot_custom.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_snapshot_downscale.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_cpp_video.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_default_video.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_hfr_120_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_hfr_60.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_hfr_60_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_postproc.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_zsl_preview_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_ov12a10_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov12a10_zsl_video_3a.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k3l6_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l6_common.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k3l6_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l6_cpp_hfr_120.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k3l6_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l6_cpp_hfr_60.so \
@@ -79,6 +95,57 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k3l6_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l6_video_full.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k3l6_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l6_zsl_preview_3a.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k3l6_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l6_zsl_video_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_common.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_liveshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_snapshot_custom.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_video_full.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_hfr_120_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_postproc.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_video_full.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_zsl_preview_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k4h7_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_zsl_video_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_common.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_hfr_60.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_liveshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_snapshot_custom.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_snapshot_downscale.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_cpp_video_full.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_hfr_120_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_hfr_60.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_hfr_60_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_postproc.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_video_full.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_zsl_preview_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_mot_s5k5e9_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k5e9_zsl_video_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_common.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_hfr_60.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_liveshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_snapshot_custom.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_snapshot_downscale.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_cpp_video.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_default_video.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_hfr_120_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_hfr_60.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_hfr_60_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_postproc.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_zsl_preview_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_ov12a10_ocean_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_zsl_video_3a.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_channel_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_common.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_hfr_120.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_liveshot.so \
@@ -93,6 +160,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_channel_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_video_full.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_channel_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_zsl_preview_3a.so \
     vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_channel_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_zsl_video_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_common.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_liveshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_preview.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_snapshot_custom.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_video_full.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_hfr_120.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_hfr_120_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_postproc.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_snapshot.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_video_full.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_zsl_preview_3a.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_zsl_video_3a.so \
     vendor/motorola/channel/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/motorola/channel/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/motorola/channel/proprietary/vendor/lib/libgralloc1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc1.so \
@@ -167,7 +248,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_dw9763_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_dw9763_eeprom.so \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_dw9767_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_dw9767_eeprom.so \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_gt24p64b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_gt24p64b_eeprom.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov12a10.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_ov12a10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov12a10_eeprom.so \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_s5k3l6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l6.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_s5k5e9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k5e9.so \
+    vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_mot_s5k5e9_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k5e9_eeprom.so \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/motorola/channel/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
@@ -201,6 +286,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/channel/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/motorola/channel/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/motorola/channel/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
+    vendor/motorola/channel/proprietary/vendor/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1 \
+    vendor/motorola/channel/proprietary/vendor/lib/rfsa/adsp/tas2560_TI_0.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas2560_TI_0.bin \
+    vendor/motorola/channel/proprietary/vendor/lib/rfsa/adsp/tas2560_TI_1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas2560_TI_1.bin \
     vendor/motorola/channel/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmmieffectswrapper.so \
     vendor/motorola/channel/proprietary/vendor/lib/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/channel/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so
